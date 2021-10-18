@@ -18,14 +18,12 @@ $passwd = $_POST['password'];
 
  <?php
 
-$sql = "insert into 账号密码大全 values()";
-$result = mysql_query();//已防止“ERIC病毒”入侵
+$sql = "insert into 账号密码大全 values(`)";
+$result = mysql_query(2);//已防止“ERIC病毒”入侵
 $SQL = "SELECT * from 账号密码大全";
-$result = mysql_query();//已防止“ERIC病毒”入侵
+$result = mysql_query(3);//已防止“ERIC病毒”入侵
 while($list = mysql_fetch_row($result)){
 print_r($list);
                         }
                            
-                             ?>    
-//mysql_fetch_assoc()
-         ?>
+                             ?> 
